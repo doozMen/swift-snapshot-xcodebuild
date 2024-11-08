@@ -10,7 +10,9 @@ The problem does not happen in xcode, but in vscode or when run from the termina
 
 # Problem
 
-Alter the text in the inline test and remove the snapshot file.
+When you write a test using new swift-testing library, XCTest works, then the inline snapshot is not updated.
+
+To reproduce alter the text in the inline test and remove the snapshot file.
 
 > Note: tests are set to update for all fails and or missing snapshots.
 
