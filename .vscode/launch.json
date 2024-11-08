@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-snapshot-xcodebuild}",
+      "name": "Debug swift-snapshot-xcodebuild",
+      "program": "${workspaceFolder:swift-snapshot-xcodebuild}/.build/debug/swift-snapshot-xcodebuild",
+      "preLaunchTask": "swift: Build Debug swift-snapshot-xcodebuild"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-snapshot-xcodebuild}",
+      "name": "Release swift-snapshot-xcodebuild",
+      "program": "${workspaceFolder:swift-snapshot-xcodebuild}/.build/release/swift-snapshot-xcodebuild",
+      "preLaunchTask": "swift: Build Release swift-snapshot-xcodebuild"
+    }
+  ]
+}
